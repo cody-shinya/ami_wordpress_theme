@@ -1,0 +1,34 @@
+header {
+  background: lightblue;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+}
+header .logo {
+  width: 78px;
+}
+header .top-menu {
+  display: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+@media screen and (min-width: 392px) {
+  header .top-menu {
+    display: flex;
+  }
+}
+header .top-menu li {
+  list-style-type: none;
+}
+header .top-menu li a {
+  padding: 0.25rem 1rem;
+  color: #2B3B32;
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+header .top-menu li a:visited {
+  color: #093a60;
+}
+header .top-menu li a:hover {
+  color: palevioletred;
+}
